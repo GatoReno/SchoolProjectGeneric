@@ -1,0 +1,41 @@
+.top2 {
+    margin-top: 2%; 
+  }
+  .top5 {
+    margin-top: 5%;
+  }
+  .top10 {
+    margin-top: 10%;
+  }
+  .p5 {
+    padding: 5%;
+  }
+  .p3 {
+    padding: 3%;
+  }
+   .p2 {
+    padding: 2%;
+  }
+  .p1 {
+    padding: .05%;
+  }
+  .card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+  }
+  .table-wrapper-scroll-y {
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  #load{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:9999;
+  background:url("https://getmitty.com/images/loader.gif") no-repeat center center rgba(0, 0, 0, 0.25)
